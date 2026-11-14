@@ -7,6 +7,15 @@
         "overview": "Cinema-style trailers for movies you haven't seen yet",
         "owner": "Grassth",
         "imageUrl": "https://raw.githubusercontent.com/Grassth/jellyfin-plugins/main/images/trailers4jellyfin.svg",
-        "versions": []
+        "versions": [
+            {
+                "checksum": "9cfef544ec91f509413a63cd252fa2ae",
+                "changelog": "- Fork of Awatatah/Trailers4Jellyfin v2.2.0.0 with:\n- Fix: never download AV1 video; yt-dlp prefers H.264 + AAC in .mp4 so trailers direct-play on devices without hardware AV1 decode (e.g. Nvidia Shield TV 2019)\n- Fix: yt-dlp picks YouTube's original audio track instead of auto-dubbed tracks\n- Fix: TMDB trailers titled as dubs are skipped; the movie's original language is always requested, and subtitled / original-language official trailers are ranked first\n- Add: settings toggles 'Exclude AV1 codec' and 'Exclude dubbed trailers' (both on by default)\n- Security: yt-dlp arguments are passed as a list, so a crafted TMDB title can no longer inject yt-dlp flags (from upstream robadieNZ v1.0.18.0)\n- Fix: leftover partial downloads are cleaned up and never counted, processed or played as trailers (from upstream robadieNZ v1.0.18.0)\n",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/Grassth/jellyfin-plugins/releases/download/trailers4jellyfin-v2.2.0.1/trailers4jellyfin_2.2.0.1.zip",
+                "timestamp": "2026-11-14T19:37:20Z",
+                "version": "2.2.0.1"
+            }
+        ]
     }
 ]
