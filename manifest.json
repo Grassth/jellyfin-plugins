@@ -1,0 +1,12 @@
+[
+    {
+        "category": "General",
+        "guid": "7635bf62-6b22-4c4c-9bc7-5d55f0c2bff0",
+        "name": "Trailers4Jellyfin",
+        "description": "Automatically downloads trailers for upcoming and recently released movies not in your library, from TMDB/YouTube, and plays them before your movies (built-in Cinema Mode). Requires Jellyfin 12 or later. Never downloads AV1 video (H.264/AAC for players without AV1 decode, e.g. Nvidia Shield 2019) and skips dubbed trailers in favour of original audio.",
+        "overview": "Cinema-style trailers for movies you haven't seen yet",
+        "owner": "Grassth",
+        "imageUrl": "https://raw.githubusercontent.com/Grassth/jellyfin-plugins/main/images/trailers4jellyfin.svg",
+        "versions": []
+    }
+]
